@@ -1,0 +1,83 @@
+.calendar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 352px;
+    height: 280px;
+    background: #f3f3f3;
+    color: #666666;
+}
+.catigories {
+    padding: 10px 10px 0 10px;
+}
+.header {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+}
+.header#Year {
+    font-size: 20px;
+    width: 80%;
+    user-select: none;
+}
+.header#Increment,
+.header#Decrement {
+    width: 10%;
+    border-radius: 20px;
+    user-select: none;
+}
+.mounth {
+    margin: 0 5px 0 5px;
+    width: 90px;
+    user-select: none;
+    padding: 1px;
+    
+}
+.mounth:hover {
+    cursor: pointer;
+    border: solid 1px #7bbe78;
+    padding: 0px;
+}
+#Iquarter,
+#IIquarter,
+#IIIquarter,
+#VIquarter {
+    margin: 10px;
+    display: flex;
+    text-align: center;
+}
+.separator {
+    width: 2px;
+    border-right: 1px solid #cccccc;
+}
+.quarters {
+    margin: 0 5px 0 5px;
+    width: 40px;
+    user-select: none;
+    padding: 1px;
+}
+.quarters:hover {
+    cursor: pointer;
+    border: solid 1px #7bbe78;
+    padding: 0px;
+    border-radius: 5px;
+}
+.quarters.select {
+    background: #7bbe78;
+    border-radius: 5px;
+    color: black;
+}
+.mounth.select {
+    background: #7bbe78;
+    border-radius: 5px;
+    color: black;
+}
+#accumulative {
+    text-align: center;
+    border-radius: 5px;
+    border: solid 1px #7bbe78;
+}
+#accumulative:hover {
+    background: #7bbe78;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}
